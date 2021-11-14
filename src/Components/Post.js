@@ -142,7 +142,7 @@ class Post extends React.Component {
                             image={this.props.image}
                             title={this.props.title}
                         />
-                        <TagsArray tags={["asd", "asdasda", "zxczxc"]} postId={this.props.id}/>
+                        
                         {this.editDeleteButtons()}
                         <Typography className={classes.author} component="p" variant="h6" align="left" >
                             writen by {this.state.authorName}

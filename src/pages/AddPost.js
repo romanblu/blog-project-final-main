@@ -113,7 +113,7 @@ class AddPost extends React.Component{
         return (
             
             <div>
-                <AddTag id={this.state.newPostId} addTag={this.addTag} setTag={this.getTags}/>
+                
                 
                 <Typography component="h3" variant="h3" align="center" color="primary">
                     Add A New Post

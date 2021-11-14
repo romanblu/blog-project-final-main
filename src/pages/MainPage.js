@@ -110,7 +110,7 @@ class MainPage extends React.Component{
 
         return (
             <div className={classes.root}>
-                <Typography className={classes.pageTitle} gutterBottom variant="h2" align="center">This is my blog</Typography>
+                <Typography className={classes.pageTitle} gutterBottom variant="h2" align="center">TechBlog</Typography>
                 <Grid container spacing={3}>
                     {postItems}
 
